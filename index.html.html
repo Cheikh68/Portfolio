@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="myCS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Cheikh Saad Bou Sall</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Cheikh Saad Bou Sall</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- About -->
+    <div id="about" class="subsection">About</div>
+    <div class="section">
+        <img src="assets\133861055923207040.jpg" class="profile-pic">
+        <div class="exp-box"> 
+            <p>
+                I'm a third-year Computer Science student at Bishop’s University in Sherbrooke, QC.<br>I'm passionate about software development, particularly in building practical and<br>user-focused <u><strong>mobile and web applications</strong></u>.<br>I have hands-on experience developing Android apps using <u><strong>Kotlin and Jetpack Compose </strong></u>,<br>with several personal projects such as a memorization/revision tool, a Notepad app, and a<br>Tic-Tac-Toe game. These projects demonstrate my ability to design intuitive UIs,<br>implement offline-first storage using <strong>Room </strong> and <strong>SQLite </strong>, and integrate features like<br>goal tracking, search functionality, and persistent game state.<br>In addition to mobile development, I’ve explored <strong>backend </strong> concepts, object-oriented<br>design, and concurrency in <u><strong>Java </strong></u> through a social media simulation project that<br>applied multiple <strong>design patterns </strong>. I'm also comfortable working with <strong>Git, GitHub </strong>,<br>and technologies like <u><strong>HTML, CSS </strong></u>, and <u><strong>Bootstrap </strong></u> for web development.<br>I'm always eager to learn, collaborate, and contribute to impactful projects. I’m<br>currently seeking internship and co-op opportunities where I can grow as a<br>developer and apply my skills in real-world environments.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Projects -->
+    <div id="projects" class="subsection">Projects</div>
+
+    <div class="section">
+       <div class="exp-box"> 
+            <p> <strong>Hifdh Partner App</strong><br>• Designed and developed an app to assist users<br>in memorizing and revising the Quran (Holy Scripture<br>in Islam) using Kotlin and Jetpack Compose.<br>• Implemented offline-first functionality with Room<br>and SQLite, and online data synchronization using<br>Firebase.<br>• Features include progress tracking, goal setting<br>with notifications, memorization and comprehension<br>tests, user feedback submission, and a profile screen<br>for personalized statistics.<br>• Utilized a repository pattern to manage UI and<br>database interactions efficiently.<br><br>• GitHub link:<br>
+                <a href="https://github.com/Cheikh68/Hifdh_Partner" target="_blank" rel="noopener noreferrer">https://github.com/Cheikh68/Hifdh_Partner</a>
+            </p>
+        </div>
+        <div class="carousel" data-carousel-id="1">
+            <div class="carousel-track"></div>
+            <button onclick="prevSlide(1)">‹</button>
+            <button onclick="nextSlide(1)">›</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="exp-box"> 
+            <p> <strong>Notepad App</strong><br>• Developed a Notepad app using Kotlin, Jetpack<br>Compose, and Room database for persistent storage.<br>• Features include creating, editing, and deleting notes,<br>with sorting and keyword search functionality.<br>• Implemented a two-screen UI: a notes list with sorting<br>and a note editor for title and content.<br>• Used ViewModel and Room to manage and store data<br>persistently across sessions.<br><br>• GitHub link:<br>
+                <a href="https://github.com/Cheikh68/Notes_Clone" target="_blank" rel="noopener noreferrer">https://github.com/Cheikh68/Notes_Clone</a>
+            </p>
+        </div>
+        <div class="carousel" data-carousel-id="2">
+            <div class="carousel-track"></div>
+            <button onclick="prevSlide(2)">‹</button>
+            <button onclick="nextSlide(2)">›</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="exp-box">
+            <p> <strong>Tictactoe Mobile App</strong><br>• Built a Tic-tac-toe game app using Kotlin and Jetpack<br>Compose.<br>• Features include turn-based gameplay, win/tie<br>detection and game state persistence with ViewModel.<br>• Added settings for auto-reset and handled device<br>rotation gracefully.<br><br>• GitHub link:<br>
+                <a href="https://github.com/Cheikh68/Tic_Tac_Toe" target="_blank" rel="noopener noreferrer">https://github.com/Cheikh68/Tic_Tac_Toe</a>
+            </p>
+        </div>
+        <div class="carousel" data-carousel-id="3">
+            <div class="carousel-track"></div>
+            <button onclick="prevSlide(3)">‹</button>
+            <button onclick="nextSlide(3)">›</button>
+        </div>
+    </div>
+
+
+    <!-- Experience -->
+    <div id="experience" class="subsection">Experience</div>
+    <div class="section section-column">
+        <div class="exp-box"> <p><strong>Development of secondary websites and social networks for 7TV</strong><br>(Senegal, AZACTU.NET). Successfully designed a news video<br>hosting website for one of Senegal's leading television<br>channels with an average of around 10,000 monthly visits.<br>Using WordPress.<br><br>• Duration: July 2022 – August 2022</p></div>
+        <div class="exp-box"> <p>Civil engineering internship (Dakar, Senegal). <br>• Duration: July 2021 - September 2021</p> </div>
+    </div>
+
+
+    <!-- Contact -->
+    <div id="contact" class="section">
+        <div class="contact-info">
+            <a href="tel:+14387791105">
+                <i class="fas fa-phone" style="font-size: 25px;"></i>
+            </a>
+            <p><a href="tel:+14387791105">+1 (438) 779-1105</a></p>
+        </div>
+
+        <div class="contact-info">
+            <a href="sallcheikh222@gmail.com">
+                <i class="fas fa-envelope" style="font-size: 25px;"></i>
+            </a>
+            <p><a href="sallcheikh222@gmail.com">sallcheikh222@gmail.com</a></p>
+        </div>
+
+        <div class="contact-info">
+            <a href="https://github.com/Cheikh68" target="_blank" rel="noopener noreferrer"> 
+                <i class="fab fa-github" style="font-size: 25px;"></i>
+            </a>
+            <p><a href="https://github.com/Cheikh68">Github Profile</a></p>
+        </div>
+
+        <div class="contact-info">
+            <a href="https://www.linkedin.com/in/cheikh-saad-bou-sall-b530642aa/" target="_blank" rel="noopener noreferrer"> 
+                <i class="fab fa-linkedin" style="font-size: 25px;"></i>
+            </a>
+            <p><a href="https://www.linkedin.com/in/cheikh-saad-bou-sall-b530642aa/">Linkedin Profile</a></p>
+        </div>
+    </div>
+
+    <script src="myJS.js"></script>
+</body>
+</html>
